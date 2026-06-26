@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @GetMapping("/hello")
     public String hello(){
-        return "Spring boot running CI/CD ";
+        return "Spring boot running CI/CD Version-2";
     }
 }
