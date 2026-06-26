@@ -1,3 +1,4 @@
+# CI pipeline for Spring Boot
 name: Spring Boot CI
 
 on:
