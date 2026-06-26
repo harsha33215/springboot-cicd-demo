@@ -26,7 +26,7 @@ class HelloControllerTest {
 
         mockMvc.perform(get("/hello"))
                 .andExpect(status().isOk())
-                .andExpect(content().string("Spring boot running CI/CD "));
+                .andExpect(content().string("Spring boot running CI/CD"));
 
     }
 }
